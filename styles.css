@@ -1,0 +1,62 @@
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  line-height: auto;
+}
+
+#navbar a h2,
+h1 {
+  border-bottom: 1px black solid;
+  padding-left: 0.5rem;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-doc {
+  border: 1px solid black;
+  width: 75%;
+  float: right;
+  height: auto;
+}
+
+
+.doc-container{
+    padding: 0.5rem;
+}
+
+.doc-container code{
+    background: seashell;
+    display: block;
+}
+
+.doc-container h3{
+    background: lightgray;
+}
+
+@media (max-width: 750px) {
+  #navbar {
+    width: 100%;
+    position: relative;
+  }
+  #main-doc {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+  }
+}
